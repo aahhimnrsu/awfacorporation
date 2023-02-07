@@ -153,8 +153,8 @@ a.about-btn:active {
 
 .corporate-holding {
     margin-top: 100px;
-    padding-left: 150px;
-    padding-right: 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
 }
 
 .corporate-title {
