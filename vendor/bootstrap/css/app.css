@@ -428,3 +428,24 @@ ul {
     font-size: 14px;
     color: #878787;
 }
+
+@media screen and (max-width: 768px) {
+    .motto{
+        text-align: center;
+        font-size: 40px;
+        width: 70%;
+        font-weight: bold;
+    }
+
+    .motto-explain{
+        width: 70%;
+    }
+
+    .header-img{
+        display: none;
+    }
+
+    .about-btn{
+        text-align: center;
+    }
+}
