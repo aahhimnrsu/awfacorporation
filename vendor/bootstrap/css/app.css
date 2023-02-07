@@ -448,16 +448,38 @@ ul {
     color: #878787;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url('../../../assets/img/bg.svg');
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain!important;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .header {
+        width: 100%;
+        font-family: 'Montserrat';
+    }
+    
     .motto {
         text-align: center;
         font-size: 40px;
-        width: 70%;
+        /* width: 90%; */
         font-weight: bold;
+        padding-right: 40px;
     }
 
     .motto-explain {
-        width: 70%;
+        padding-right: 40px;
+        text-align: justify;
+        text-align-last: center;
     }
 
     .header-img {
@@ -465,7 +487,8 @@ ul {
     }
 
     .header-btn {
-        margin-left: 100px;
+        padding-right: 40px;
+        text-align: center;
         margin-top: 30px;
     }
 
