@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgb(213, 70, 70);
     background-color: rgb(213, 70, 70);
@@ -14,16 +15,34 @@
     background-color: #D62929;
 }
 
+body {
+    background-image: url('../../../assets/img/bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 .navbar.scrolled {
     transition: all 1s ease-in-out;
     background-color: #ffffff !important;
 }
 
-.nav-link{
+.nav-link {
     transition: all 0.5s ease;
 }
-.nav-link:hover{
-    transform: scale(1.1);;
+
+.nav-link:hover {
+    transform: scale(1.1);
+    ;
 }
 
 .body {
@@ -216,7 +235,7 @@ a.about-btn:active {
     font-size: 30px;
 }
 
-.lembaga{
+.lembaga {
     margin-top: 10px;
     margin-bottom: 40px;
     background-color: #bd1514;
@@ -430,22 +449,35 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-    .motto{
+    .motto {
         text-align: center;
         font-size: 40px;
         width: 70%;
         font-weight: bold;
     }
 
-    .motto-explain{
+    .motto-explain {
         width: 70%;
     }
 
-    .header-img{
+    .header-img {
         display: none;
     }
 
-    .about-btn{
-        text-align: center;
+    .header-btn {
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+
+    ::-webkit-scrollbar-track {
+        display: none;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        display: none;
     }
 }

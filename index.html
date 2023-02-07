@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AwfaCorp</title>
     <link rel="shortcut icon" href="assets/img/shortcuticon.png">
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="vendor/all.min.css">
 </head>
 
-<body style="background-image: url('assets/img/bg.svg'); background-size: 100%; background-repeat: no-repeat;">
+<body>
+    <div class="wrapper">
     <!-- {{-- PRELOADER --}} -->
     <div class="loader">
         <div class="ring"></div>
@@ -87,10 +88,9 @@
                 holding
                 bernama PT Awfa Berkah Investama yang selanjutnya disebut <b>AWFA Corp</b> dengan membawahi tiga anak
                 perusahaan, yaitu PT Awfa Solusi Integra, PT Awfa Media Reklamindo, dan PT Awfa Media Retailindo</p>
-                <div class="about-btn">
-                    <a  href="#about" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">Tentang Perusahaan</a>
-                </div>
+                <div class="header-btn">
+                    <a class="about-btn" href="#about">Tentang Perusahaan</a>
+                    </div>
         </div>
     </div>
     
@@ -473,6 +473,7 @@
             <div class="footer-cta pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-5 col-md-5">
+                        <br>
                         <div class="single-cta">
                             <div class="cta-text">
                                 <h4><i class="fas fa-map-marker-alt" style="color: #bd1514; font-size: 25px;"></i>
@@ -487,6 +488,7 @@
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-3">
+                        <br>
                         <div class="single-cta">
                             <div class="cta-text">
                                 <h4><i class="fas fa-phone" style="color: #bd1514; font-size: 25px;"></i> Hubungi Kami
@@ -496,6 +498,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-md-4">
+                        <br>
                         <div class="single-cta">
                             <div class="cta-text">
                                 <h4><i class="far fa-envelope-open" style="color: #bd1514; font-size: 25px;"></i> Email
@@ -553,6 +556,7 @@
         </div>
     </footer>
     <!-- {{-- END FOOTER SECTION --}} -->
+</div>
 
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/script.js"></script>
