@@ -448,7 +448,7 @@ ul {
     color: #878787;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .motto {
         text-align: center;
         font-size: 40px;
