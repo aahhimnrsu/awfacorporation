@@ -42,7 +42,14 @@ body {
 
 .nav-link:hover {
     transform: scale(1.1);
-    ;
+}
+
+.dropdown-item {
+    transition: all 0.5s ease;
+}
+
+.dropdown-item:hover {
+    transform: scale(1.1);
 }
 
 .body {
@@ -260,7 +267,7 @@ ul {
 }
 
 .footer-section {
-    background: #151414;
+    background: #05011e;
     position: relative;
 }
 
@@ -269,7 +276,7 @@ ul {
 }
 
 .single-cta i {
-    color: #ff5e14;
+    color: #b31413;
     font-size: 50px;
     float: left;
     margin-top: 8px;
@@ -313,6 +320,11 @@ ul {
 .footer-logo img {
     width: 100px;
     max-width: 200px;
+}
+
+.footer-text img{
+    width: 500px;
+    max-width: 500px;
 }
 
 .footer-text p {
@@ -372,7 +384,7 @@ ul {
     bottom: -15px;
     height: 2px;
     width: 50px;
-    background: #ff5e14;
+    background: #b31413;
 }
 
 .footer-widget ul li {
@@ -383,7 +395,7 @@ ul {
 }
 
 .footer-widget ul li a:hover {
-    color: #ff5e14;
+    color: #b31413;
 }
 
 .footer-widget ul li a {
@@ -407,9 +419,9 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #ff5e14;
+    background: #b31413;
     padding: 13px 20px;
-    border: 1px solid #ff5e14;
+    border: 1px solid #b31413;
     top: 0;
 }
 
@@ -431,7 +443,7 @@ ul {
 }
 
 .copyright-text p a {
-    color: #ff5e14;
+    color: #b31413;
 }
 
 .footer-menu li {
@@ -440,7 +452,7 @@ ul {
 }
 
 .footer-menu li:hover a {
-    color: #ff5e14;
+    color: #b31413;
 }
 
 .footer-menu li a {
@@ -492,6 +504,17 @@ ul {
         margin-top: 30px;
     }
 
+    .footer-logo img {
+        width: 100px;
+        max-width: 200px;
+    }
+    
+    .footer-text img{
+        width: 350px;
+        margin-bottom: 30px;
+        max-width: 500px;
+    }
+
     ::-webkit-scrollbar-track {
         display: none;
     }
@@ -502,5 +525,15 @@ ul {
 
     ::-webkit-scrollbar-thumb {
         display: none;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .motto {
+        text-align: center;
+        font-size: 35px;
+        /* width: 90%; */
+        font-weight: bold;
+        padding-right: 40px;
     }
 }
