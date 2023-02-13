@@ -442,6 +442,14 @@ ul {
     color: #878787;
 }
 
+.cta-text a{
+    color: #757575;
+}
+
+.cta-text a:hover{
+    color: #b31413;
+}
+
 .copyright-text p a {
     color: #b31413;
 }
@@ -479,6 +487,7 @@ ul {
         width: 100%;
         font-family: 'Montserrat';
     }
+
     
     .motto {
         text-align: center;
@@ -535,5 +544,11 @@ ul {
         /* width: 90%; */
         font-weight: bold;
         padding-right: 40px;
+    }
+
+    .footer-text img{
+        width: 330px;
+        margin-bottom: 30px;
+        max-width: 500px;
     }
 }
